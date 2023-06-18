@@ -1,0 +1,12 @@
+fr/diginamic/entites/Fournisseur.class
+fr/diginamic/dao/IFournisseurDao.class
+fr/diginamic/service/LogAppender.class
+fr/diginamic/dao/jdbc/ArticlesDao.class
+fr/diginamic/dao/jdbc/FournisseurDao.class
+fr/diginamic/mochizukiTools/Utils$Colors.class
+fr/diginamic/Main.class
+fr/diginamic/dao/IArticleDao.class
+fr/diginamic/mochizukiTools/Utils.class
+fr/diginamic/database/Database.class
+fr/diginamic/entites/Articles.class
+fr/diginamic/mochizukiTools/Params.class
