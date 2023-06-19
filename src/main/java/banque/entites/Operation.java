@@ -6,7 +6,8 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name="Operation")
-public class Operation {
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Operation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")

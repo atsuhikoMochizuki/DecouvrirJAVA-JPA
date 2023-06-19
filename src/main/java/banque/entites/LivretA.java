@@ -1,12 +1,9 @@
 package banque.entites;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
+import jakarta.persistence.*;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name="LivretA")
 public class LivretA extends Compte{
     @Column(name="taux")
     private double taux;

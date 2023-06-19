@@ -1,14 +1,11 @@
 package banque.entites;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Inheritance;
-import jakarta.persistence.InheritanceType;
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
 @Entity
-@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name="AssuranceVie")
 public class AssuranceVie extends Compte{
     @Column(name="dateFin")
     private LocalDate dateFin;
