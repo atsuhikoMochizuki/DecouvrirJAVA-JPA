@@ -18,6 +18,9 @@ public abstract class Compte {
     @Column(name="solde")
     private double solde;
 
+    @ManyToMany(mappedBy = "comptes")
+    private Set<Client> client;
+
     @OneToMany(mappedBy = "compte")
     private Set<Operation> operations;
 

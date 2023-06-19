@@ -3,6 +3,7 @@ package banque.entites;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Table(name="Client")
@@ -21,9 +22,18 @@ public class Client {
     @Embedded
     private Adresse adresse;
 
+    @ManyToMany
+    @JoinTable(name = "client_compte",
+            joinColumns = @JoinColumn(name="id_client",referencedColumnName = "id"),
+            inverseJoinColumns =  @JoinColumn(name="id_compte", referencedColumnName = "id")
+    )
+    private Set<Compte> comptes;
      @ManyToOne
      @JoinColumn(name="BANQUE_ID")
      private Banque banque;
+
+
+
 
     public Client(){
 
