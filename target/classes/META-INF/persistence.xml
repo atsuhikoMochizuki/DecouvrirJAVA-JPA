@@ -34,8 +34,6 @@
             <!-- Drop and create à chaque redémarrage -->
             <property name="jakarta.persistence.schema-generation.database.action"
                       value="drop-and-create"/>
-            <property name="Persistence.schema-generation.database.action"
-                      value="drop-and-create"/>
             <!-- Affichage des requêtes SQL -->
             <property name="hibernate.show_sql" value="true" />
             <!-- Paramètres d'accès à la BDD -->
@@ -44,6 +42,4 @@
             <property name="jakarta.persistence.jdbc.password" value="root" />
         </properties>
     </persistence-unit>
-
-
 </persistence>
