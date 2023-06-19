@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c20231-6e14-43a3-8372-c67bca64d69a" name="Changes" comment="TP6 à terminer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dao/IClientsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/dao/jdbc/ClientsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Clients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Emprunts.java" afterDir="false" />
+    <list default="true" id="75c20231-6e14-43a3-8372-c67bca64d69a" name="Changes" comment="TP3 à revoir">
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Adresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/AssuranceVie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Banque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/LivretA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Articles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Articles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Livres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/diginamic/entites/Livres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fr/diginamic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/diginamic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="banque.entites" />
       <recent name="fr.diginamic.jdbc.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -157,7 +158,8 @@
       <workItem from="1687112186261" duration="165000" />
       <workItem from="1687112513632" duration="849000" />
       <workItem from="1687113419653" duration="6689000" />
-      <workItem from="1687155737556" duration="3154000" />
+      <workItem from="1687155737556" duration="3556000" />
+      <workItem from="1687161075791" duration="8834000" />
     </task>
     <task id="LOCAL-00001" summary="1er Commit">
       <created>1686687725615</created>
@@ -271,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687109121487</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TP3 à revoir">
+      <created>1687158924803</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687158924803</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +310,7 @@
     <MESSAGE value="tp4 terminé" />
     <MESSAGE value="TP 5 Terminé" />
     <MESSAGE value="TP6 à terminer" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP6 à terminer" />
+    <MESSAGE value="TP3 à revoir" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP3 à revoir" />
   </component>
 </project>
