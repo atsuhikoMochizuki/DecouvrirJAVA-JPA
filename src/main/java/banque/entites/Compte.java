@@ -27,10 +27,12 @@ public abstract class Compte {
     public Compte() {
     }
 
-    public Compte(Integer id, String numero, double solde) {
+    public Compte(Integer id, String numero, double solde, Set<Client> client, Set<Operation> operations) {
         this.id = id;
         this.numero = numero;
         this.solde = solde;
+        this.client = client;
+        this.operations = operations;
     }
 
     public Integer getId() {
