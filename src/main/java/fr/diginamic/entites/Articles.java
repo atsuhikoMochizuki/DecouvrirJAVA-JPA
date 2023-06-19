@@ -1,5 +1,6 @@
 package fr.diginamic.entites;
 
+
 public class Articles {
     private int id;
     private String ref;

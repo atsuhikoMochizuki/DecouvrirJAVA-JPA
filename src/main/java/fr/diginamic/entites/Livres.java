@@ -2,16 +2,14 @@ package fr.diginamic.entites;
 
 import jakarta.persistence.*;
 
-@Entity
-@Table(name = "LIVRES")
+
 public class Livres {
 
-    @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+
     private Integer id;
-    @Column(name = "TITRE")
+
     private String titre;
-    @Column(name = "AUTEUR")
+
     private String Auteur;
 
     public Livres()

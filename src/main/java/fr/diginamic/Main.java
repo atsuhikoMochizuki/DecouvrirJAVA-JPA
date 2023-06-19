@@ -100,6 +100,11 @@ public class Main {
             Utils.msgResult(String.format("|| %03d || %40s || %25s ||", book.getId(), book.getTitre(), book.getAuteur()));
         }
 
+        Utils.msgTitle("TP3: Savoir utiliser des entités");
+
+
+
+
         em.close();
     }
 }
