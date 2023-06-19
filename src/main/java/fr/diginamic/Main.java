@@ -102,6 +102,8 @@ public class Main {
 
         Utils.msgTitle("TP3: Savoir utiliser des entités");
 
+        Utils.msgTitle("TP4 : Modélisation objet avec JPA");
+
 
 
 

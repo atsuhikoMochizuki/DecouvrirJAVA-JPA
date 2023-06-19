@@ -5,6 +5,7 @@ fr/diginamic/dao/jdbc/ArticlesDao.class
 banque/entites/Adresse.class
 banque/entites/Compte.class
 fr/diginamic/Main.class
+fr/diginamic/entites/TestBanque.class
 fr/diginamic/dao/IArticleDao.class
 fr/diginamic/entites/Clients.class
 fr/diginamic/mochizukiTools/Utils.class
